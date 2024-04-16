@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>Product Details | Assignment 3 | Collaboration with Type 3</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <button id="menu-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <ul id="menu">
+                    <li><a href="index.html"><img src="./img/logo.png" alt="Wayfair Logo"></a></li>
+                    <div class="search-container">
+                        <input type="text" placeholder="Find what you're looking for on Wayfair.ca..." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </div>
+                    <li><a href="#signin"><i class="fa fa-user"></i>Sign In</a></li>
+                    <li><a href="checkout.html"><i class="fa fa-shopping-cart"></i>Cart</a></li>
+                </ul>
+                <ul id="menu-secondary">
+                    <li><a href="#furniture">Furniture</a></li>
+                    <li><a href="#outdoor">Outdoor</a></li>
+                    <li><a href="#bedbath">Bed & Bath</a></li>
+                    <li><a href="#carpet">Rugs & Carpet</a></li>
+                    <li><a href="#decor">Decor & Pillows</a></li>
+                    <li><a href="#lighting">Lighting</a></li>
+                    <li><a href="#storage">Storage</a></li>
+                    <li><a href="#kitchen">Kitchen & Dining</a></li>
+                    <li><a href="#kids">Baby & Kids</a></li>
+                    <li><a href="#appliances">Appliances</a></li>
+                    <li><a href="#pets">Pets</a></li>
+            </nav>
+        </header>
+        <section class="details-wrapper" id="product">
+            <!-- dynamically created content -->
+        </section>
+        <footer class="footer">
+            <ul>
+                <li><img src="./img/logo.png" alt="Wayfair Logo"></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#productpage">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="checkout.html">Cart</a></li>
+            </ul>
+            <p>Copyright ©2024 | Website designed by Thomas Cristiano</p>
+        </footer>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+<script src="./js/details.js"></script>
+</html>
